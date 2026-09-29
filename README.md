@@ -10,9 +10,4 @@ Requirements: PHP with the `mysqli` extension and MySQL or MariaDB.
 2. Import [`DATABASE FILE/carrentalp.sql`](DATABASE%20FILE/carrentalp.sql).
 3. Update the database host, username, password, and database name in `connection.php` if your local settings differ. The default settings are for a local XAMPP installation.
 4. From this directory, start PHP's development server:
-
-	```powershell
-	php -S 127.0.0.1:8000
-	```
-
 5. Open http://127.0.0.1:8000/.
