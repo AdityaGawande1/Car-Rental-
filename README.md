@@ -1,23 +1,18 @@
-# Patna-Car-Rental
-Online Car Rental Management System 
+# Car Rental Management System
 
-This is a Web based Application developed using PHP as a Host Language. Database for the Application is in "Database" folder. It can be imported to your localhost(phpMyAdmin) or any other servers. Also configure the "connection.php" to set up the necessary connections with the database.
+An online PHP and MySQL application for browsing rental cars, making bookings, and managing vehicles and drivers.
 
-### Screenshots:
-> - Landing Page
-<img src="/Screenshots/index.jpg" width="800" height="450" alt="landing_page"/>
+## Run locally
 
-> - Available Cars
-<img src="/Screenshots/available_cars.png" width="800" height="450" alt="available_cars"/>
+Requirements: PHP with the `mysqli` extension and MySQL or MariaDB.
 
-> - Add Cars
-<img src="/Screenshots/add_car.png" width="800" height="700" alt="add_car"/>
+1. Create a database named `carrentalp`.
+2. Import [`DATABASE FILE/carrentalp.sql`](DATABASE%20FILE/carrentalp.sql).
+3. Update the database host, username, password, and database name in `connection.php` if your local settings differ. The default settings are for a local XAMPP installation.
+4. From this directory, start PHP's development server:
 
-> - Booking Confirmation
-<img src="/Screenshots/booking_confirmation.png" width="800" height="800" alt="booking_confirm"/>
+	```powershell
+	php -S 127.0.0.1:8000
+	```
 
-> - Return Car
-<img src="/Screenshots/return_car.png" width="800" height="450" alt="return_car"/>
-
-> - Booking Summary
-<img src="/Screenshots/bookings.png" width="800" height="450" alt="booking_summary"/>
+5. Open http://127.0.0.1:8000/.
